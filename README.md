@@ -10,7 +10,7 @@ You will be working individually for this project, but we'll be guiding you thro
 
 ---
 
-#### Requirements
+#### Requirements ..
 
 Your work must:
 
