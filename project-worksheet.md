@@ -8,9 +8,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.)/ transfere projects to codepen.  | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -18,15 +18,18 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My Portfolio is going to consist of Multiple Projects that we hvae completed over the course of the past couple weeks. It will also contain a sub directory to my repository to for additional information on the process of the porfolio and the repo's for the projects i have completed. All of the projects will be compied to codepen for easier acess for links. My networking will be a key factor in my portfolio, i will be providing social networking application links on my page along with an 'About Me' and 'Career Goals' section. 
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample [Joe had used in class]
+https://docs.google.com/spreadsheets/d/1ABSg_gTOZEj4URDdodS6Mwx5crZhCtaIdlKaHnuZ57A/edit#gid=0
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+
+https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=M424d2232b53ba2a5a86a47925281e91b1583785947132&projectid=M8eac89c8b660adaea42c966aa1e2fccb1583620039911&perm=Owner#/page/39a2e12f2fd74b30838cc740ed062b0d
 
 [https://www.figma.com/](https://www.figma.com/)
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
@@ -48,13 +51,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP (examples)
 
 - Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Complete Responsive Design. 
+- Use JQuery to create a more Special designs [hovers and click  event listeners] for portfolio. 
+
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- work with wireFrames a little more to create a more responsive deisgn. 
+- try to furter javascript into my portfolio. 
 
 ## Functional Components
 
@@ -68,9 +72,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
-## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
 
+## Additional Libraries
+ imgur - Used to host all of my local files, then referenced in html/css. 
+
+1. 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
