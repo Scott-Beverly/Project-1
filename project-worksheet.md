@@ -78,7 +78,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Re - orginizing | L | 1hr | tbd | tbd |
 |Additional css | L | 2hrs | tbd | tbd |
 | Final Touches | L | 2hrs | tbd | tbd |
-
 | Total | H | 24.5hrs | 9hrs | 9hrs |
 
 
