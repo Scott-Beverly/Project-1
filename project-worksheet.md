@@ -27,9 +27,12 @@ https://docs.google.com/spreadsheets/d/1ABSg_gTOZEj4URDdodS6Mwx5crZhCtaIdlKaHnuZ
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page. 
 
-https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=M424d2232b53ba2a5a86a47925281e91b1583785947132&projectid=M8eac89c8b660adaea42c966aa1e2fccb1583620039911&perm=Owner#/page/39a2e12f2fd74b30838cc740ed062b0d
+Mobil Design - https://imgur.com/B2gFvzy
+Tablet Design - https://imgur.com/qxSx8eB 
+Desktop Design - https://imgur.com/kirjeC5
+Desktop design - https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=M424d2232b53ba2a5a86a47925281e91b1583785947132&projectid=M8eac89c8b660adaea42c966aa1e2fccb1583620039911&perm=Owner#/page/39a2e12f2fd74b30838cc740ed062b0d
 
 [https://www.figma.com/](https://www.figma.com/)
 [https://mockflow.com/app/#Wireframe](https://mockflow.com/app/#Wireframe)
