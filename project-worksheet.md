@@ -77,12 +77,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |copy proj's to CodePen| H | 2hrs | 1hr | 1hr |
 |Get Api Info on site | H | 3hrs | 3hrs | 3hrs |
 |work with bootstrap | H | 2hrs | tbd | tbd |
-|Page lay-out | H | 3.5hrs | tbd | tbd |
+|Page lay-out Mobile| H | 3.5hrs | 3hrs | 3hrs |
+|page lay-out Tablet| H | 2hrs | | tbd | tbd |
+|page lay-out Desktop | H | 2hrs | tbd | tbd |
 |Jquery event listeners | L | 2hrs | tbd | tbd |
 |Re - orginizing | L | 1hr | tbd | tbd |
 |Additional css | L | 2hrs | tbd | tbd |
 | Final Touches | L | 2hrs | tbd | tbd |
-| Total | H | 27.5hrs | 13hrs | 13hrs |
+| Total | H | 31.5hrs | 16hrs | 16hrs |
 
 
 ## Additional Libraries
