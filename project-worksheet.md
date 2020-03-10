@@ -75,6 +75,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | WireFrame design | H | 2hrs | 3hrs | 3hrs |
 |copy proj's to CodePen| H | 2hrs | 1hr | 1hr |
+|Get Api Info on site | H | 3 | tbd | tbd |
 |work with bootstrap | H | 2hrs | tbd | tbd |
 |Page lay-out | H | 3.5hrs | tbd | tbd |
 |Jquery event listeners | L | 2hrs | tbd | tbd |
