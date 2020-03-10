@@ -25,8 +25,27 @@ fetch(source)
 
 function app(projects) {
   console.log('app - projects', projects)
-}
+
 // App goes here
+
+
+function projectData(){
+    for(let i =0; i < projects.length; i++){
+        let $article = $(`
+        <article>
+           <a class="project-titles" href="#">${projects[i].title}</a>
+        <div class="project-image">
+        <a href=${projects[i].url}>
+             <img width="250" height="169" src=${projects[i].image} alt="startup matchmaker"></a>
+        </div>
+        </article>`)
+
+        $('.contentContainer').append($article)
+    }
+  }
+  projectData()
+ }
+  
 
 
 
