@@ -77,3 +77,114 @@ top: 11px;
 -o-transform: rotate(-135deg);
 transform: rotate(-135deg);
 }
+
+
+article{
+	align-items: :center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+
+}
+.contentContainer{
+	text-align: center;
+}
+img{
+	width:600px;
+	
+}
+.project-image{
+	align-content: center;
+	background-color: rgba(128, 128, 128, .6);
+	border: 1px solid black;
+	
+}
+.myImage{
+	border-radius: 700px;
+	margin: auto 0;
+	padding: 0;
+	max-width: 300px;
+	
+}	
+.col-md-10{
+	align-content: center;
+	
+
+	background-image: 50%;
+	text-align: center;
+
+}
+.col-md-10,h1{
+
+}
+html{
+	margin: 50px;
+}
+.project-titles {
+
+	font-family: 'Handlee', cursive;
+	font-size: 40px;
+	margin-top:20px;
+	margin-bottom: 100px;
+	color: black;
+	text-decoration: underline;
+}
+.row{
+	text-align:center;
+	margin-bottom: 50px;
+}
+.col-md-12 > h1{
+	background-color: gray;
+	font-family: 'Handlee', cursive;
+	font-size: 60px;
+}
+.row{
+
+
+}
+.gallery{
+	text-align: center;
+	font-family: 'Handlee', cursive;
+
+}
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//
