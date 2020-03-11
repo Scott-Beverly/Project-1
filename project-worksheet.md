@@ -10,7 +10,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.)/ transfere projects to codepen.  | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.)/ transfere projects to codepen.  | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -78,13 +78,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Get Api Info on site | H | 3hrs | 3hrs | 3hrs |
 |work with bootstrap | H | 2hrs | tbd | tbd |
 |Page lay-out Mobile| H | 3.5hrs | 3hrs | 3hrs |
-|page lay-out Tablet| H | 2hrs | | tbd | tbd |
-|page lay-out Desktop | H | 2hrs | tbd | tbd |
+|page lay-out Tablet| H | 2hrs | | 2hrs | 2hrs |
+|page lay-out Desktop | H | 2hrs | 1hr | 1hr |
+|CSS design | H | 4hrs | tbd | tbd |
 |Jquery event listeners | L | 2hrs | tbd | tbd |
 |Re - orginizing | L | 1hr | tbd | tbd |
 |Additional css | L | 2hrs | tbd | tbd |
 | Final Touches | L | 2hrs | tbd | tbd |
-| Total | H | 31.5hrs | 16hrs | 16hrs |
+| Total | H | 35.5hrs | 19hrs | 19hrs |
 
 
 ## Additional Libraries
