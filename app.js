@@ -32,14 +32,14 @@ function projectData(){
     for(let i =0; i < projects.length; i++){
         let $article = $(`
         <article>
-           <a class="project-titles" href="#">${projects[i].title}</a>
+           <a class="project-titles" href="https://codepen.io/Scottie19">${projects[i].title}</a>
         <div class="project-image">
         <a href=${projects[i].url}>
              <img width= "100%" height="100%" src=${projects[i].image} alt="startup matchmaker"></a>
         </div>
         <div class= buttons>
-        <button href = "#"> Code </button>
-        <button href = "#"> Repo </button>
+        <button href = "${projects[i].url}"> Code </button>
+        <button href = "https://github.com/ScottBeverly"> Repo </button>
         </div>
         </article>`)
 
