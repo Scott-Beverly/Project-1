@@ -170,7 +170,7 @@ html{
 	body{ 
 		display: grid;
 		grid-template-columns: repeat(2, .5fr);
-		grid-template-rows: repeat(3,.5fr);
+		grid-template-rows: repeat(3, .5fr);
 		
 	}
 	ul{
@@ -196,7 +196,8 @@ html{
 		font-family: 'Shadows Into Light', cursive;
 		text-decoration: none;
 		color: black;
-		font-size: 20px;
+		font-size: 25px;
+		color: white;
 
 	}
 	 .project-image {
@@ -218,6 +219,8 @@ html{
 		width: 200px;
 		margin-top: 50px;
 		margin-bottom: 40px;
+		border: 1px solid white;
+		border-radius: 20px;
 
 	}
 	aside{
@@ -229,19 +232,22 @@ html{
 	}
 	header{
 		text-align: center;
-		background-color: rgb(238, 238, 238);
+		/*background-color: rgb(238, 238, 238);*/
 		margin-bottom: 20px;
 		border:1px solid gray;
+		background-image: url(https://i.imgur.com/NtiuiRc.jpg);
 	}
 	.col-md-12 > h1{
 		
 		font-family: 'Handlee', cursive;
 		font-size: 60px;
 		text-decoration: underline;
+		color: white;
 	}
 	.col-md-12 > h2{
 		font-family: 'Caveat', cursive;
 		font-size: 35px;
+		color:white;
 	}
 	h1{
 		text-align: center;
@@ -332,6 +338,8 @@ html{
 		text-align: center;
 		grid-column: 1/7;
 		grid-row: 1/2;
+		background-image: url(https://i.imgur.com/NtiuiRc.jpg);
+		background-image: opacity .5;
 	}
 	nav{
 		margin-top: 40px;
@@ -340,7 +348,7 @@ html{
 		margin: 20px;
 	}
 	footer{
-		grid-row: 5/6;
+		grid-row: 4/5;
 		grid-column:1/7;
 	}
 	ul{
@@ -357,6 +365,7 @@ html{
 	height: 200px;
 	width: 250px;
 	margin: 15px;
+	border: 1px solid gray;
 
 	}
 	aside{
@@ -365,12 +374,21 @@ html{
 		margin-top: 50px;
 	}
 	p{
-		margin-top: 50px;
+		
+		font-size: 18px;
+		background-color:rgb(238, 238, 238);
+		border: 1px solid gray;
+		padding-top: 50px;
+		padding-bottom: 15px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border-radius: 10px;
+		margin-right: 10px;
 	}
 
 
 	.project-titles{
-		font-size: 15px;
+		font-size: 25px;
 		font-family: 'Handlee', cursive;
 		text-decoration: none;
 		color: black;
@@ -383,14 +401,75 @@ html{
 	}
 	button{
 		margin-bottom: 20px;
+		font-size: 15px;
 	}
 	.myImage{
 		margin-bottom: 30px;
+		border: 2px solid white;
+		border-radius: 10px;
 	}
 	.info{
-		grid-row:3/4; 
-		grid-column:1/2;
+		display: none;
+	
 	}
+	.contentContainer{
+		background-color:rgb(238, 238, 238);
+		padding-right: 40px;
+		border: 1px solid gray;
+		border-radius: 10px;
+	}
+	.about > h3 {
+		font-family: 'Caveat', cursive;
+		font-size: 45px;
+		color: white;
+	}
+	.career-goals > h3 {
+		font-family: 'Caveat', cursive;
+		font-size: 45px;
+		color: white;
+	}
+	body{
+		background-color: rgb(60, 76, 102)
+
+	}
+	article > h1{
+		color: white;
+		font-family: 'Caveat', cursive;
+		font-size: 40px;
+		margin-top: 20px;
+	}
+	nav > a {
+		margin: 10px;
+		text-align: center;
+		font-family: 'Shadows Into Light', cursive, bold;
+		text-decoration: underline;
+		color: white;
+		font-size: 40px;
+	}
+	.col-md-12 > h1{
+		
+		font-family: 'Handlee', cursive, bold ;
+		font-size: 60px;
+		text-decoration: underline;
+		color:white;
+		text-decoration: underline;
+	
+	}
+	.col-md-12 > h2{
+		font-family: 'Caveat', cursive;
+		font-size: 45px;
+		color:white;
+		text-decoration: underline;
+	}
+	.footer a {
+	
+		font-family: 'Caveat', cursive;
+		font-size: 45px;
+		color:white;
+		text-decoration: underline;
+	}
+
+	
 }
 
 

@@ -76,16 +76,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | WireFrame design | H | 2hrs | 3hrs | 3hrs |
 |copy proj's to CodePen| H | 2hrs | 1hr | 1hr |
 |Get Api Info on site | H | 3hrs | 3hrs | 3hrs |
-|work with bootstrap | H | 2hrs | tbd | tbd |
+|work with bootstrap | H | 2hrs | 2hr | 2hr |
 |Page lay-out Mobile| H | 3.5hrs | 3hrs | 3hrs |
 |page lay-out Tablet| H | 2hrs | | 2hrs | 2hrs |
 |page lay-out Desktop | H | 2hrs | 1hr | 1hr |
-|CSS design | H | 4hrs | tbd | tbd |
+|CSS design | H | 4hrs | 4hrs | 4hrs |
 |Jquery event listeners | L | 2hrs | tbd | tbd |
 |Re - orginizing | L | 1hr | tbd | tbd |
 |Additional css | L | 2hrs | tbd | tbd |
 | Final Touches | L | 2hrs | tbd | tbd |
-| Total | H | 35.5hrs | 19hrs | 19hrs |
+| Total | H | 35.5hrs | 25.5hrs | 25.5hrs |
 
 
 ## Additional Libraries

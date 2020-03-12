@@ -38,8 +38,8 @@ function projectData(){
              <img width= "100%" height="100%" src=${projects[i].image} alt="startup matchmaker"></a>
         </div>
         <div class= buttons>
-        <button href = "${projects[i].url}"> Code </button>
-        <button href = "https://github.com/ScottBeverly"> Repo </button>
+        <button href = "${projects[i].url}"> Like </button>
+        <button href = "https://github.com/ScottBeverly"> Share </button>
         </div>
         </article>`)
 
