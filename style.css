@@ -5,6 +5,9 @@ html{
 	margin: 30px;
 	color: black;
 }
+button:hover{
+	background-color: rgb(178, 185, 197);
+}
 @media(max-width: 767px){
 	article{
 		align-items: :center;
@@ -161,6 +164,11 @@ html{
 	.info{
 		display: none;
 	}
+	.navbar{
+		margin-left: 15px;
+		width: 100%;
+
+	}
 
 
 }
@@ -304,6 +312,7 @@ html{
 		padding-right: 40px;
 	}
 	.info{
+		margin-top: 100px;
 		padding-right: 10px;
 		padding-left: 10px;
 		padding-top: 30px;
@@ -311,6 +320,7 @@ html{
 	}
 	.info > p {
 		border: none;
+		margin:10px;
 	}
 	.info > button {
 		font-size: 15px;
@@ -319,17 +329,24 @@ html{
 	.info > h3 {
 		font-family: 'Caveat', cursive;
 		font-size: 35px;
+		color: white;
 
 	}
 	input{
 		height: 20px;
 		width: 120px;
 	}
+	.navbar{
+		margin-left: 15px;
+		width: 93%;
+		padding-right: 10px;
+		margin-top: 200px;
+	}
 
 
 }
 @media (min-width: 1024px){
-		body{
+	body{
 		display: grid;
 		grid-template-rows: repeat(4,.5fr);
 		grid-template-columns:repeat(6, .5fr);
@@ -339,7 +356,7 @@ html{
 		grid-column: 1/7;
 		grid-row: 1/2;
 		background-image: url(https://i.imgur.com/NtiuiRc.jpg);
-		background-image: opacity .5;
+	 	background-image: opacity .5;
 	}
 	nav{
 		margin-top: 40px;
@@ -362,10 +379,10 @@ html{
 		margin-top: 30px;
 	}
 	.project-image {
-	height: 200px;
-	width: 250px;
-	margin: 15px;
-	border: 1px solid gray;
+		height: 200px;
+		width: 250px;
+		margin: 15px;
+		border: 1px solid gray;
 
 	}
 	aside{
@@ -374,7 +391,7 @@ html{
 		margin-top: 50px;
 	}
 	p{
-		
+			
 		font-size: 18px;
 		background-color:rgb(238, 238, 238);
 		border: 1px solid gray;
@@ -393,8 +410,6 @@ html{
 		text-decoration: none;
 		color: black;
 		margin: 10px;
-	
-
 	}
 	h3{
 		margin-top: 100px;
@@ -410,7 +425,7 @@ html{
 	}
 	.info{
 		display: none;
-	
+		
 	}
 	.contentContainer{
 		background-color:rgb(238, 238, 238);
@@ -465,8 +480,16 @@ html{
 	
 		font-family: 'Caveat', cursive;
 		font-size: 45px;
-		color:white;
+		color:black;
 		text-decoration: underline;
+		margin-top: 250px;
+	}
+	.navbar{
+		width:100%;
+		color: rgb(16, 84, 123);
+		font-family: 'Caveat', cursive;
+		text-decoration: none;
+		font-size: 30px;
 	}
 
 	

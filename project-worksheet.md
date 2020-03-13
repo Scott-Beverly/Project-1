@@ -81,11 +81,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |page lay-out Tablet| H | 2hrs | | 2hrs | 2hrs |
 |page lay-out Desktop | H | 2hrs | 1hr | 1hr |
 |CSS design | H | 4hrs | 4hrs | 4hrs |
-|Jquery event listeners | L | 2hrs | tbd | tbd |
+|Jquery event listeners | L | 2hrs | 2hrs | 2hrs |
 |Re - orginizing | L | 1hr | tbd | tbd |
-|Additional css | L | 2hrs | tbd | tbd |
+|Additional css | L | 2hrs | 2hrs | 2hrs |
 | Final Touches | L | 2hrs | tbd | tbd |
-| Total | H | 35.5hrs | 25.5hrs | 25.5hrs |
+| Total | H | 35.5hrs | 29.5hrs | 29.5hrs |
 
 
 ## Additional Libraries
@@ -97,14 +97,54 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+function projectData(){
+    for(let i =0; i < projects.length; i++){
+        let $article = $(`
+        <article>
+           <a class="project-titles" href="https://codepen.io/Scottie19">${projects[i].title}</a>
+        <div class="project-image">
+        <a href=${projects[i].url}>
+             <img width= "100%" height="100%" src=${projects[i].image} alt="startup matchmaker"></a>
+        </div>
+        <div class= buttons>
+        <button href = "${projects[i].url}"> Like </button>
+        <button href = "https://github.com/ScottBeverly"> Share </button>
+        </div>
+        </article>`)
+
+        $('.contentContainer').append($article)
+    }
+    I was Never good at template literals. I was in a zoom call with a bunch of students from class that rave over how much easier it is then writing all the code out for a for loop. so when i was creating this i was out of my comfort zone completely. but i was able to complete it witht the help of a few friends and i was proud of the end result(aka working)
 ```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
 #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+app.js:51 Uncaught ReferenceError: projectData is not defined
+    at app.js:51                               
+**RESOLUTION**: Reviewed my functions and realized i was calling for data outside of the data function ....
+
+
+function projectData(){
+    for(let i =0; i < projects.length; i++){
+        let $article = $(`
+        <article>
+           <a class="Project-titles" href="https://codepen.io/Scottie19">${projects[i].title}</a>
+        <div class="project-image">
+        <a href=${projects[i].url}>
+             <img width= "100%" height="100%" src=${projects[i].image} alt="startup matchmaker"></a>
+        </div>
+        <div class= buttons>
+        <button href = "${projects[i].url}"> Like </button>
+        <button href = "https://github.com/ScottBeverly"> Share </button>
+        </div>
+        </article>`)
+
+        $('contentContainer').append($article)
+    }
+  }
+
+ }
+  projectData()
+ `

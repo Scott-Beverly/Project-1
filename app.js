@@ -32,7 +32,7 @@ function projectData(){
     for(let i =0; i < projects.length; i++){
         let $article = $(`
         <article>
-           <a class="project-titles" href="https://codepen.io/Scottie19">${projects[i].title}</a>
+           <a class="Project-titles" href="https://codepen.io/Scottie19">${projects[i].title}</a>
         <div class="project-image">
         <a href=${projects[i].url}>
              <img width= "100%" height="100%" src=${projects[i].image} alt="startup matchmaker"></a>
@@ -43,14 +43,19 @@ function projectData(){
         </div>
         </article>`)
 
-        $('.contentContainer').append($article)
+        $('contentContainer').append($article)
     }
   }
   projectData()
+
  }
 
 
-  
+//  let $button = $('<button>')
+// $button.addEventListener('click', 'alert'){
+
+// }
+
 
 
 
