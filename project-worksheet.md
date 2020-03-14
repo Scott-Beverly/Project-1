@@ -11,7 +11,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.)/ transfere projects to codepen.  | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 4| MVP & Bug Fixes | complete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
@@ -84,12 +84,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Jquery event listeners | L | 2hrs | 2hrs | 2hrs |
 |Re - orginizing | L | 1hr | tbd | tbd |
 |Additional css | L | 2hrs | 2hrs | 2hrs |
-| Final Touches | L | 2hrs | tbd | tbd |
-| Total | H | 35.5hrs | 29.5hrs | 29.5hrs |
+| Final Touches | L | 2hrs | 1hr | 1hr |
+| Total | H | 35.5hrs | 30.5hrs | 30.5hrs |
 
 
 ## Additional Libraries
  imgur - Used to host all of my local files, then referenced in html/css. 
+ googleFonts - for most of my font families 
 
 1. 
 ## Code Snippet
@@ -148,3 +149,12 @@ function projectData(){
  }
   projectData()
  `
+
+ references [
+
+  bootstrap - https://getbootstrap.com/docs/4.1/components/navbar/
+  Google/Fonts - https://fonts.google.com/
+
+
+
+ ]

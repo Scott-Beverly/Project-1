@@ -43,7 +43,7 @@ function projectData(){
         </div>
         </article>`)
 
-        $('contentContainer').append($article)
+        $('.contentContainer').append($article)
     }
   }
   projectData()
